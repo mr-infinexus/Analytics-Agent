@@ -1,0 +1,6 @@
+__pycache__
+.deepeval/
+.pytest_cache/
+chroma_store/
+.env
+.venv

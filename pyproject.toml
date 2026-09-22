@@ -1,0 +1,22 @@
+[project]
+name = "analytics-agent"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "deepeval>=4.2.4",
+    "duckdb>=1.5.5",
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "langchain[openai]>=1.4.2",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.3",
+    "tenacity>=9.1.4",
+    "uvicorn[standard]>=0.53.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]
